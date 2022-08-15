@@ -1,0 +1,232 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 7px;
+}
+header{
+    width:100%;
+    height:60px;
+    background-color: #0050d5;
+    position: fixed;
+   
+}
+header .word{
+    color:white;
+    font-size:6em ;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:8px 0 0 30px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  margin-left: 1000px;
+  margin-top: -45px;
+}
+.container .navbar a{
+    font-size: 4em;
+    margin-left: 25px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+
+}
+.container .navbar a:hover{
+    color:#0b0c10;
+}
+.container .navbar a::after{
+    content:'';
+    width:0;
+    height:2px;
+    background-color: #66fcf1;
+    position: absolute;
+    bottom:0px;
+    left:0;
+    transition: .5s;
+}
+.container .navbar a:hover::after{
+width:100%;
+}
+.first{
+    width:100%;
+    height:100vh;
+    background-color: #4056a1;
+    background-image: url(../hospital.jpg);
+}
+.first .content h1{
+   position: absolute;
+   left:28%;
+   color:black;
+   top:20%;
+   font-size: 60px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   border:3px solid #123c69;
+   padding:20px;
+   border-radius: 30px;
+   transition: .8s ease;
+}
+.first .content h1:hover{
+    transform: scale(1.2);
+}
+.first .content p{
+    position: absolute;
+    left:29%;
+    color:black;
+    top:40%;
+    font-size: 37px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .second{
+    width: 100%;
+    height:100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .container2{
+    width:300px;
+    height:200px;
+    background-color: transparent;
+   position: absolute;
+   margin-right: 150px;
+   
+ }
+ .second .container2 .img1{
+    position: relative;
+    left:400px;
+    bottom:200px;
+    transition: .8s ease;
+ }
+ .second .container2 .img1:hover{
+    transform: scale(1.2);
+    opacity: .8;
+ }
+
+ .second .container2 .img2{
+    position: relative;
+    left:32px;
+    bottom:442px;
+    transition: .8s ease;
+    
+ }
+ .second .container2 .img2:hover{
+    transform: scale(1.2);
+    opacity: .8;
+ }
+ .second .container2 .img3{
+    position: relative;
+    right:340px;
+    bottom:684px;
+    transition: .8s ease;
+ }
+ .second .container3 .img1:hover{
+    transform: scale(1.2);
+    opacity: .8;
+ }
+ .second .container2 .img3:hover{
+    transform: scale(1.2);
+    opacity: .8;
+ }
+ .second .container2 .img4{
+    position: relative;
+    right:340px;
+    bottom:684px;
+    margin-top:10px;
+    transition: .8s ease;
+ }
+ .second .container2 .img4:hover{
+    transform: scale(1.2);
+    opacity: .8;
+ }
+ .second .container2 .img5{
+    position: relative;
+    left:30px;
+    bottom:936px;
+    margin-top:10px;
+    transition: .8s ease;
+ }
+ .second .container2 .img5:hover{
+    transform: scale(1.2);
+    opacity: .8;
+ }
+ .second .container2 .img6{
+    position: relative;
+    left:403px;
+    bottom:1188px;
+    margin-top:10px;
+    transition: .8s ease;
+ }
+ .second .container2 .img6:hover{
+    transform: scale(1.2);
+    opacity: .8;
+ }
+ .about{
+    width:100%;
+    height:90vh;
+    background-color: #bab2b5;
+ }
+.about .head p{
+    position: absolute;
+    left:42%;
+    color:#0050d5;
+    font-size: 8em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:40px;
+} .content ul li{
+    position: relative;
+    top:150px;
+    left:500px;
+    font-size: 40px;
+    color:#123c69;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img img:hover{
+    transform: scale(1,2);
+    opacity: .7;
+}
+.co{
+    width:100%;
+    height:70vh;
+    background-color: white;
+}
+.contact{
+width:100%;
+height:80vh;
+background-color: white;
+}
+.contact .el{
+    width:500px;
+    height:100px;
+    background-color: black;
+}
+footer{
+    width:100%;height:60px;
+    background-color: #4056a1;
+}
+footer p{
+    font-size: 30px;
+    color:black;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.container2 .img1 p{
+    position: relative;
+    font-size: 50px;
+   left:-230px;
+    bottom:6px;
+    color:#4056a1;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
